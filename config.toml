@@ -1,0 +1,20 @@
+baseURL = 'https://cedmundo.com'
+languageCode = 'en-us'
+title = 'cedmundo blog'
+theme = 'risotto'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
