@@ -232,7 +232,7 @@ bool BDF_ReadString(IOStream *stream, BDF_String *bdf_string) {
 
 And it is only possible to do it because the data relationship is described in the schema itself.
 
-As more seasoned developers might be able to stop, the last implementation of string is kind of bad, because it really doesn't
+As more seasoned developers might be able to spot, the last implementation of string is kind of bad, because it really doesn't
 account of unicode strings, (it can actually do it if we process it as a BLOB, which can work with UTF-8), but if we would be
 a little bit more restrictive, we can write a UTF-16 string:
 
@@ -243,7 +243,7 @@ type StringUTF16 struct {
 }
 ```
 
-This way, we can actually describe the data itself and its relationship, and automate the data serialization on the way.
+This way, we can actually describe the data itself and its relationship, and automate the data serialization at the same time.
 
 ## What about tagged-unions?
 
