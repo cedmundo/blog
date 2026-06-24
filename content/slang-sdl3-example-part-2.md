@@ -1,7 +1,7 @@
 ---
 title: "Using slang with SDL3 (SDLGPU): Part 2 - Adding shaders"
 date: 2026-06-23T21:12:04-06:00
-draft: true
+draft: false
 ---
 
 ## Introduction

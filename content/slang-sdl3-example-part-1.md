@@ -1,7 +1,7 @@
 ---
 title: "Using slang with SDL3 (SDLGPU): Part 1 - Basics"
 date: 2026-06-23T13:30:18-06:00
-draft: true
+draft: false
 ---
 
 ## Introduction

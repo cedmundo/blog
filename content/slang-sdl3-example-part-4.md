@@ -1,7 +1,7 @@
 ---
 title: "Using slang with SDL3 (SDLGPU): Part 4 - Vertex buffers and attributes"
 date: 2026-06-23T21:16:38-06:00
-draft: true
+draft: false
 ---
 
 ## Introduction

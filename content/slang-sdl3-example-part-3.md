@@ -1,7 +1,7 @@
 ---
 title: "Using slang with SDL3 (SDLGPU): Part 3 - Uniforms"
 date: 2026-06-23T21:15:25-06:00
-draft: true
+draft: false
 ---
 
 ## Introduction
