@@ -156,7 +156,7 @@ int main() {
 }
 ```
 
-To check if we have everything already, we will run:
+To check if we have everything setup correctly, we will run:
 
 ```
 $ cmake -B cmake-build-debug -S . && cmake --build cmake-build-debug
