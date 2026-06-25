@@ -67,7 +67,7 @@ The implementation goes as follow in `quad.c`:
 
 ```c
 // quad.c
-#include "quad.h"
+#include "quad.c"
 
 #include <SDL3/SDL_assert.h>
 #include <SDL3/SDL_gpu.h>
@@ -149,6 +149,7 @@ SingleQuad *CreateSingleQuad(SDL_GPUDevice *device) {
   };
 
   quad->indices_count = V_INDEX_COUNT;
+  quad->uploaded = false;
   return quad;
 }
 
@@ -569,6 +570,5 @@ Awesome! Now we talking, we got working Uniforms, Vertex Buffers and Attributes.
 
 ## Next steps
 
-Now you can pass vertex buffers and setup attributes. Next part I'll show how to
-bind textures and after that, how to bind custom data to graphic shaders. Finally,
-I'll add a compute example to finish the series.
+Now you can pass bind vertex buffers and customize attributes in your slang application,
+please read the next part [here](/slang-sdl3-example-part-5/).
