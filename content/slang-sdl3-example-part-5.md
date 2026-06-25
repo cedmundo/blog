@@ -289,7 +289,7 @@ FetchContent_MakeAvailable(SDL3_image)
 target_link_libraries(slang-sdl3-example PRIVATE SDL3 SDL3_image-shared) # SDL3_image-shared works for me
 ```
 
-I everything compiles, then we can continue by adding a texture module, the header goes by:
+If everything compiles, then we can continue by adding a texture module, the header goes something like this:
 
 ```c
 #ifndef TEXTURE_H
@@ -605,7 +605,7 @@ using a square texture.
 IMPORTANT: This image must be copied into your build directory or wherever the executable is running from,
 same as shaders, the `texture.c` will lookup on the base directory of the application.
 
-If you compile everything (including shaders) and run it without any issues, it should show this:
+If you compile everything (including shaders) and run it without any issues, then you should see something like this:
 
 ![A window with blue background and a colored square oscilating with a duck](/images/slang-sdl3-example-6.gif)
 
