@@ -612,7 +612,5 @@ If you compile everything (including shaders) and run it without any issues, the
 
 ## Next steps
 
-Now you can pass samplers into your slang programs!. Next part I'll show how to bind custom data to shaders and
-also I'll add an example for compute shaders.
-
+Now you can pass samplers into your slang programs!. Next part can be read [here](/slang-sdl3-example-part-6/).
 
