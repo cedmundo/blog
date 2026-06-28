@@ -386,7 +386,6 @@ be able to see something like this:
 ## Next steps
 
 Awesome! we now got storage buffers working for vertex shaders, the work is the same for fragments shaders except
-that you'll need to bind the `set` in layout to the proper value. Next chapter we will be
-creating and dispatching compute shaders written in slang.
+that you'll need to bind the `set` in layout to the proper value. Next part can be read [here](/slang-sdl3-example-part-6/).
 
 Happy coding.
